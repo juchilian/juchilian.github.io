@@ -1,0 +1,35 @@
+body { 
+    color:#fff;
+    margin:0;
+    padding: 0;
+    background-color: #333;
+    font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+    
+.eye-catch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background: center/cover url("../img/high_sea.jpg");
+}
+
+.eye-catch-text {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+}
+
+/* profile領域 */
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid skyblue;
+}
